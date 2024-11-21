@@ -1,5 +1,5 @@
 import pytest
-from app import app
+from flaskapp.app import app
 @pytest.fixture
 def client():
     with app.test_client() as client:
