@@ -1,4 +1,6 @@
 import pytest
+import os
+print(os.getcwd())
 from flaskapp.app import app
 @pytest.fixture
 def client():
