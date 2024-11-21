@@ -1,7 +1,7 @@
 import pytest
 import os
 print(os.getcwd())
-from flaskapp.app import app
+from app import app
 @pytest.fixture
 def client():
     with app.test_client() as client:
